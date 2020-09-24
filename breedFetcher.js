@@ -14,9 +14,3 @@ request(urlInput, (error, response, body) => {
     console.log(data[0].description);
   }
 });
-
-// if (body[0].description === undefined) {
-//   console.log("Requested breed not found");
-// }
-// const data = JSON.parse(body);
-//
